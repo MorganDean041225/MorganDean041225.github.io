@@ -3378,8 +3378,12 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
-	}
+    padding: 10em 0 4.75em 0;
+    background-image: url('images/pic01.jpg'); /* Add this line */
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Adjust height as needed */
+}
 
 		#banner .inner {
 			margin: 0 auto;
