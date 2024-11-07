@@ -77,31 +77,30 @@
 
 
 			<section id="footer">
-				<div class="container">
-					<header class="major">
-						<h2>RSVP Form</h2>
-						<h3>We Kindly ask all guests indicate whether they will be attending and the names of those in their party no later than Friday, February 28th, 2025. </h3>
-					</header>
-					<form method="post" action="#">
-						<div class="row gtr-uniform">
-							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Guest Name" /></div>
-							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email" /></div>
-							<div class="col-12"><textarea name="message" id="message" placeholder="Please indicate if you will be attending and the names of those in your party." rows="4"></textarea></div>
-							<div class="col-12">
-								<ul class="actions special">
-									<li><input type="submit" value="Send RSVP" class="primary" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</div>
-				<footer>
-				
-					<ul class="copyright">
-						<li>Questions? Text Deand or Morgan at 803-757-9785 or 864-556-1969</li>
-					</ul>
-				</footer>
-			</section>
+   <div class="container">
+      <header class="major">
+         <h2>RSVP Form</h2>
+         <h3>We kindly ask all guests to indicate if they will be attending and the names of those in their party no later than Friday, February 28th, 2025.</h3>
+      </header>
+      <form method="post" action="https://formspree.io/f/mzzbrver">
+         <div class="row gtr-uniform">
+            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Guest Name" required /></div>
+            <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email" required /></div>
+            <div class="col-12"><textarea name="message" id="message" placeholder="Please indicate if you will be attending and the names of those in your party." rows="4" required></textarea></div>
+            <div class="col-12">
+               <ul class="actions special">
+                  <li><input type="submit" value="Send RSVP" class="primary" /></li>
+               </ul>
+            </div>
+         </div>
+      </form>
+   </div>
+   <footer>
+      <ul class="copyright">
+         <li>Questions? Text Dean or Morgan at 803-757-9785 or 864-556-1969</li>
+      </ul>
+   </footer>
+</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
