@@ -1,358 +1,363 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<html>
-	<head>
-		<title>Morgan and Dean Wrobel, April 12 2025</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-			  <style>
-   				 /* This ensures thumbnail and full images keep their aspect ratio */
-  				  .thumbnail img {
-    				    max-width: 100%;
-      				    height: auto;
-     				    display: block;
-   				  }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #2d5016 0%, #1a4d2e 100%);
+            min-height: 100vh;
+            color: #333;
+        }
 
-   				 .full-image-container img {
-     				 max-width: 90vw;
-    				max-height: 90vh;
-     				 width: auto;
-      				height: auto;
-      				display: block;
-     				 margin: auto;
-    					}
- 				 </style>
-	</head>
-	<body class="is-preload-0 is-preload-1 is-preload-2">
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
 
-		<!-- Main -->
-			<div id="main">
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #2d5016, #1a4d2e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Morgan and Dean</h1>
-						<p>Thank you all again for celebrating with us and making our wedding a truly special day. A google drive link to the picture seen here is at <a href="http://html5up.net">HTML5 UP</a></p>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-					</header>
+        .header p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #666;
+        }
 
-				<!-- Thumbnail -->
-					<section id="thumbnails">
-						<article>
-							<a class="thumbnail" href="images/fulls/1.jpg"><img src="images/thumbs/1.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/2.jpg"><img src="thumbs/2.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/3.jpg"><img src="images/thumbs/3.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/4.jpg"><img src="images/thumbs/4.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/5.jpg"><img src="images/thumbs/5.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/6.jpg"><img src="images/thumbs/6.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/7.jpg"><img src="images/thumbs/7.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/8.jpg"><img src="images/thumbs/8.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/9.jpg"><img src="images/thumbs/9.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/10.jpg"><img src="images/thumbs/10.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/11.jpg"><img src="images/thumbs/11.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/12.jpg"><img src="thumbs/12.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/13.jpg"><img src="images/thumbs/13.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/14.jpg"><img src="images/thumbs/14.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/15.jpg"><img src="images/thumbs/15.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/16.jpg"><img src="images/thumbs/16.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/17.jpg"><img src="images/thumbs/17.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/18.jpg"><img src="images/thumbs/18.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/19.jpg"><img src="images/thumbs/19.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/20.jpg"><img src="thumbs/20.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/21.jpg"><img src="images/thumbs/21.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/22.jpg"><img src="thumbs/22.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/23.jpg"><img src="images/thumbs/23.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/24.jpg"><img src="images/thumbs/24.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/25.jpg"><img src="images/thumbs/25.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/26.jpg"><img src="images/thumbs/26.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/27.jpg"><img src="images/thumbs/27.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/28.jpg"><img src="images/thumbs/28.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/29.jpg"><img src="images/thumbs/29.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/30.jpg" data-position="top center"><img src="images/thumbs/30.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/31.jpg" data-position="left center"><img src="images/thumbs/31.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/32.jpg"><img src="thumbs/32.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/33.jpg" data-position="top center"><img src="images/thumbs/33.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/34.jpg"><img src="images/thumbs/34.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/35.jpg" data-position="top center"><img src="images/thumbs/35.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/36.jpg"><img src="images/thumbs/36.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/37.jpg"><img src="images/thumbs/37.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/38.jpg"><img src="images/thumbs/38.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/39.jpg"><img src="images/thumbs/39.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/40.jpg"><img src="images/thumbs/40.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/41.jpg" data-position="left center"><img src="images/thumbs/41.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/42.jpg"><img src="thumbs/42.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/43.jpg" data-position="top center"><img src="images/thumbs/43.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/44.jpg"><img src="images/thumbs/44.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/45.jpg" data-position="top center"><img src="images/thumbs/45.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/46.jpg"><img src="images/thumbs/46.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/47.jpg"><img src="images/thumbs/47.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/48.jpg"><img src="images/thumbs/48.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/49.jpg"><img src="images/thumbs/49.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/50.jpg" data-position="top center"><img src="images/thumbs/50.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/51.jpg" data-position="left center"><img src="images/thumbs/51.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/52.jpg"><img src="thumbs/52.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/53.jpg" data-position="top center"><img src="images/thumbs/53.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/54.jpg"><img src="images/thumbs/54.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/55.jpg" data-position="top center"><img src="images/thumbs/55.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/56.jpg"><img src="images/thumbs/56.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/57.jpg"><img src="images/thumbs/57.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/58.jpg"><img src="images/thumbs/58.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/59.jpg"><img src="images/thumbs/59.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/60.jpg"><img src="images/thumbs/60.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/61.jpg" data-position="left center"><img src="images/thumbs/61.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/62.jpg"><img src="thumbs/62.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/63.jpg" data-position="top center"><img src="images/thumbs/63.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/64.jpg"><img src="images/thumbs/64.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/65.jpg" data-position="top center"><img src="images/thumbs/65.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/66.jpg"><img src="images/thumbs/66.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/67.jpg"><img src="images/thumbs/67.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/68.jpg"><img src="images/thumbs/68.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/69.jpg"><img src="images/thumbs/69.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/70.jpg"><img src="images/thumbs/70.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/71.jpg" data-position="left center"><img src="images/thumbs/71.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/72.jpg"><img src="thumbs/72.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/73.jpg" data-position="top center"><img src="images/thumbs/73.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/74.jpg"><img src="images/thumbs/74.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/75.jpg" data-position="top center"><img src="images/thumbs/75.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/76.jpg"><img src="images/thumbs/76.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/77.jpg"><img src="images/thumbs/77.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/78.jpg"><img src="images/thumbs/78.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/79.jpg"><img src="images/thumbs/79.jpg" alt="" /></a>
-						</article>
-							<a class="thumbnail" href="images/fulls/80.jpg"><img src="images/thumbs/80.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/81.jpg" data-position="left center"><img src="images/thumbs/81.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/82.jpg"><img src="thumbs/82.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/83.jpg" data-position="top center"><img src="images/thumbs/83.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/84.jpg"><img src="images/thumbs/84.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/85.jpg" data-position="top center"><img src="images/thumbs/85.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/86.jpg"><img src="images/thumbs/86.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/87.jpg"><img src="images/thumbs/87.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/88.jpg"><img src="images/thumbs/88.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/89.jpg"><img src="images/thumbs/89.jpg" alt="" /></a>
-						</article>
-							<a class="thumbnail" href="images/fulls/90.jpg"><img src="images/thumbs/90.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/91.jpg" data-position="left center"><img src="images/thumbs/91.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/92.jpg"><img src="thumbs/92.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/93.jpg" data-position="top center"><img src="images/thumbs/93.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/94.jpg"><img src="images/thumbs/94.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/95.jpg" data-position="top center"><img src="images/thumbs/95.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/96.jpg"><img src="images/thumbs/96.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/97.jpg"><img src="images/thumbs/97.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/98.jpg"><img src="images/thumbs/98.jpg" alt="" /></a>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/99.jpg"><img src="images/thumbs/99.jpg" alt="" /></a>
-						</article>						
-						<article>
-							<a class="thumbnail" href="images/fulls/100.jpg"><img src="images/thumbs/10.jpg" alt="" /></a>
-						</article>
-					</section>
+        .download-link {
+            display: inline-block;
+            background: linear-gradient(45deg, #2d5016, #1a4d2e);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-				<!-- Footer -->
+        .download-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(45, 80, 22, 0.4);
+        }
 
-			</div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            padding: 1rem 0;
+        }
 
-	</body>
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item::after {
+            content: '🔍';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-item:hover::after {
+            opacity: 1;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease;
+        }
+
+        .close:hover {
+            color: #2d5016;
+        }
+
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 15px;
+            border-radius: 50%;
+            transition: background 0.3s ease;
+            z-index: 1001;
+        }
+
+        .nav-arrow:hover {
+            background: rgba(45, 80, 22, 0.7);
+        }
+
+        .prev {
+            left: 20px;
+        }
+
+        .next {
+            right: 20px;
+        }
+
+        .loading-text {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1rem;
+            }
+            
+            .modal-content {
+                max-width: 95%;
+                max-height: 85%;
+            }
+            
+            .nav-arrow {
+                font-size: 24px;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Photo Gallery</h1>
+        <p>Browse through our collection of beautiful images</p>
+        <a href="https://drive.google.com" class="download-link" target="_blank">
+            📁 Download Full Resolution Images
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="gallery" id="gallery">
+            <!-- Gallery items will be populated by JavaScript -->
+        </div>
+        <div class="loading-text" id="loading">Loading gallery...</div>
+    </div>
+
+    <!-- Modal for enlarged view -->
+    <div class="modal" id="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <span class="nav-arrow prev" id="prevImage">&#10094;</span>
+        <span class="nav-arrow next" id="nextImage">&#10095;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <script>
+        let images = [];
+        let currentImageIndex = 0;
+
+        // Common image extensions
+        const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp'];
+        
+        // Sample image names - you can modify this array or load dynamically
+        const sampleImages = [
+            'image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg',
+            'image6.jpg', 'image7.jpg', 'image8.jpg', 'image9.jpg', 'image10.jpg'
+        ];
+
+        function loadGallery() {
+            const gallery = document.getElementById('gallery');
+            const loading = document.getElementById('loading');
+            
+            // For demonstration, using sample image names
+            // In a real scenario, you'd get this list from your server
+            images = sampleImages;
+            
+            if (images.length === 0) {
+                loading.textContent = 'No images found in the gallery.';
+                return;
+            }
+
+            gallery.innerHTML = '';
+            loading.style.display = 'none';
+
+            images.forEach((imageName, index) => {
+                const galleryItem = document.createElement('div');
+                galleryItem.className = 'gallery-item';
+                galleryItem.onclick = () => openModal(index);
+
+                const img = document.createElement('img');
+                img.src = `images/fulls/${imageName}`;
+                img.alt = `Gallery image ${index + 1}`;
+                img.onerror = function() {
+                    this.style.display = 'none';
+                    galleryItem.style.display = 'none';
+                };
+
+                galleryItem.appendChild(img);
+                gallery.appendChild(galleryItem);
+            });
+        }
+
+        function openModal(index) {
+            currentImageIndex = index;
+            const modal = document.getElementById('modal');
+            const modalImage = document.getElementById('modalImage');
+            
+            modal.style.display = 'block';
+            modalImage.src = `images/fulls/${images[index]}`;
+            modalImage.alt = `Gallery image ${index + 1}`;
+            
+            // Prevent body scrolling when modal is open
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function showPrevImage() {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = `images/fulls/${images[currentImageIndex]}`;
+        }
+
+        function showNextImage() {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = `images/fulls/${images[currentImageIndex]}`;
+        }
+
+        // Event listeners
+        document.getElementById('closeModal').onclick = closeModal;
+        document.getElementById('prevImage').onclick = showPrevImage;
+        document.getElementById('nextImage').onclick = showNextImage;
+
+        // Close modal when clicking outside the image
+        document.getElementById('modal').onclick = function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        };
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (document.getElementById('modal').style.display === 'block') {
+                switch(e.key) {
+                    case 'Escape':
+                        closeModal();
+                        break;
+                    case 'ArrowLeft':
+                        showPrevImage();
+                        break;
+                    case 'ArrowRight':
+                        showNextImage();
+                        break;
+                }
+            }
+        });
+
+        // Load gallery when page loads
+        document.addEventListener('DOMContentLoaded', loadGallery);
+    </script>
+</body>
 </html>
